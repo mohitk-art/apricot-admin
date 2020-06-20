@@ -1,0 +1,34 @@
+// Variables
+@import "variables";
+
+
+.skin-blue{
+     .main-header{
+
+      .navbar{
+        background-color: $primaryColor !important;
+     }
+
+}
+}
+
+
+
+.main-sidebar{
+    background-color: $secondaryColor !important;
+
+    .logo-brand{
+        display: block;
+        text-align: center;
+        img{
+        width:100%;
+        max-width:113px;
+        
+        }
+    }
+}
+
+.user-panel{
+    background-color: #fff;
+    border-color: $secondaryColor !important;
+}

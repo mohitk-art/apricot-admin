@@ -1,0 +1,3 @@
+.main-wrapper .wrapper::before{
+    background-image: url("../img/apricotlogo.png");
+}

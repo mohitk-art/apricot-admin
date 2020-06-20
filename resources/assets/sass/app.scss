@@ -1,0 +1,141 @@
+
+// Variables
+@import "variables";
+
+/* color start*/
+@import "color";
+/* color end*/
+
+/* admin start */
+@import "admin";
+/* admin end */
+
+// // Bootstrap
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+
+/* wrapper start */
+.main-wrapper {
+    background-color: $bgcolor !important;
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+    .progress {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #fff5ef;
+      border-radius: 0;
+      z-index: 9999;
+  
+      .progress-bar {
+        background-color:#f6c25d;
+      }
+    }
+  
+    .wrapper {
+      background-color: #fff5ef;
+      position: relative;
+      padding: 30px 150px;
+      width: 100%;
+      max-width: 1080px;
+      margin: auto;
+      border-radius: 52px;
+  
+      .btn1 {
+        display: inline-block;
+        outline: 0;
+        padding: 14px 40px;
+        font-family: $themefont;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        position: absolute;
+        top: 34px;
+        left: 20px;
+        border-radius: 52px;
+      }
+  
+      .btn2 {
+        display: inline-block;
+        font-family: $themefont;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        border: 0;
+        line-height: 42px;
+        border-radius: 52px;
+        padding: 15px 50px;
+        color: #000 !important;
+      }
+  
+      &::before {
+        content: '';
+        background-image: url(./../img/apricotlogo.png);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 160px;
+        position: absolute;
+        right: 21px;
+        top: 15px;
+      }
+  
+      .box {
+        padding: 30px;
+        border-radius: 52px;
+        background-color: $bgcolor !important;
+  
+        .form-wrapper {
+          margin: auto;
+          max-width: 625px;
+  
+          &.form-wrapper1 {
+            max-width: 650px;
+          }
+  
+          .form-control {
+            font-family: 'Roboto', sans-serif;
+            color: #838383;
+            font-style: normal;
+            font-weight: bold;
+            background-color: #0000000f;
+            border-radius: 52px;
+            padding: 20px 25px;
+            border: 0;
+            font-size: 24px;
+            line-height: 28px;
+            height: auto;
+            margin-bottom: 30px;
+  
+            &.form-control1 {
+              padding: 10px 25px !important;
+              margin-bottom: 15px;
+            }
+          }
+  
+          .submit-btn {
+            display: inline-block;
+            font-family: $themefont;
+            outline: 0;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            border: 0;
+            padding: 7px 45px;
+            border-radius: 52px;
+          }
+        }
+      }
+    }
+  }
+  /* wrapper end */

@@ -1,0 +1,174 @@
+/* color start*/
+
+.btn-blue {
+  background-color: #408fa8 !important;
+  color: #fff !important;
+}
+
+.btn-blue:hover {
+  background-color: #3c6e86 !important;
+  color: #fff !important;
+}
+
+/* color end*/
+
+/* admin start */
+
+.skin-blue .main-header .navbar {
+  background-color: #f6c25d !important;
+}
+
+.main-sidebar {
+  background-color: #408fa8 !important;
+}
+
+.main-sidebar .logo-brand {
+  display: block;
+  text-align: center;
+}
+
+.main-sidebar .logo-brand img {
+  width: 100%;
+  max-width: 113px;
+}
+
+.user-panel {
+  background-color: #fff;
+  border-color: #408fa8 !important;
+}
+
+/* admin end */
+
+/* wrapper start */
+
+.main-wrapper {
+  background-color: #f6ebea !important;
+  min-height: 100vh;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.main-wrapper .progress {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff5ef;
+  border-radius: 0;
+  z-index: 9999;
+}
+
+.main-wrapper .progress .progress-bar {
+  background-color: #f6c25d;
+}
+
+.main-wrapper .wrapper {
+  background-color: #fff5ef;
+  position: relative;
+  padding: 30px 150px;
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  border-radius: 52px;
+}
+
+.main-wrapper .wrapper .btn1 {
+  display: inline-block;
+  outline: 0;
+  padding: 14px 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  position: absolute;
+  top: 34px;
+  left: 20px;
+  border-radius: 52px;
+}
+
+.main-wrapper .wrapper .btn2 {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  border: 0;
+  line-height: 42px;
+  border-radius: 52px;
+  padding: 15px 50px;
+  color: #000 !important;
+}
+
+.main-wrapper .wrapper::before {
+  content: '';
+  background-image: url(/images/apricotlogo.png?03fa7b9d5c176da9e2fbe481c0d5bf45);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 160px;
+  position: absolute;
+  right: 21px;
+  top: 15px;
+}
+
+.main-wrapper .wrapper .box {
+  padding: 30px;
+  border-radius: 52px;
+  background-color: #f6ebea !important;
+}
+
+.main-wrapper .wrapper .box .form-wrapper {
+  margin: auto;
+  max-width: 625px;
+}
+
+.main-wrapper .wrapper .box .form-wrapper.form-wrapper1 {
+  max-width: 650px;
+}
+
+.main-wrapper .wrapper .box .form-wrapper .form-control {
+  font-family: 'Roboto', sans-serif;
+  color: #838383;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #0000000f;
+  border-radius: 52px;
+  padding: 20px 25px;
+  border: 0;
+  font-size: 24px;
+  line-height: 28px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.main-wrapper .wrapper .box .form-wrapper .form-control.form-control1 {
+  padding: 10px 25px !important;
+  margin-bottom: 15px;
+}
+
+.main-wrapper .wrapper .box .form-wrapper .submit-btn {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  border: 0;
+  padding: 7px 45px;
+  border-radius: 52px;
+}
+
+/* wrapper end */
+
